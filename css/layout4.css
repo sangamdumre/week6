@@ -1,0 +1,57 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald";
+}
+.main{
+    background-color: #d69c00;
+    height: auto;
+}
+
+.main h1{
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+.flex-container{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-item img{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.text h2,h4,h5,h6{
+    text-align: center;
+}
+.text h4{
+    padding-bottom: 40px;
+}
+.text h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.text h6{
+    font-size: 18px;
+    font-weight: 100;
+
+}
+.text h5{
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.text h4{
+    font-size: 18px;
+    font-weight: bold;
+}

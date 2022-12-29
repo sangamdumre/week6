@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 100%;
+    background-color: rgb(220, 206, 179);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    align-items: center ;
+
+}
+
+.flex-item{
+    border: 1px solid#000;
+
+    width: 200px;
+    height: auto ;
+    margin: 10px;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 2px green ;
+    background-color: pink;
+    text-decoration: underline;
+
+}
+.flex-item p{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(218, 32, 32);
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 40px;
+    line-height: 2 ;
+}
+
